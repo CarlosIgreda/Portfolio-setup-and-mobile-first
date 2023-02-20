@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* ------------HEADER--------------- */
+
+#topnav {
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 6.3% 0% 6.2%;
+  background-color: white;
+}
+
+#logotext {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+  color: #6070ff;
+}
+
+/* ------------BODY--------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+#idbody {
+  background-color: rgba(235, 233, 233, 0.308);
+}
+
+#idsection {
+  padding: 0 6.2%;
+  display: flex;
+  flex-direction: column;
+  background-image: url(/images/header-shapes\ mobile@2x.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-bottom-left-radius: 10vh;
+}
+
+.icons {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 1.25rem;
+  margin-top: 0.563rem;
+}
+
+.icons li {
+  transition: all 300ms ease-in-out;
+}
+
+.icons li:hover {
+  transform: scale(1.5);
+}
+
+#idh1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+  color: #172b4d;
+  text-align: left;
+  margin-top: 5.625rem;
+  margin-bottom: 0.625rem;
+}
+
+#idp1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #344563;
+  text-align: left;
+  margin-bottom: 1.125rem;
+}
+
+#idconnect {
+  text-decoration: none;
+  color: #7f8cff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+#idsocial {
+  padding-bottom: 7.5rem;
+}
