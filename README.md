@@ -18,9 +18,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 Portfolio: Set Up And Mobile First <a name="about-project"></a>
+# 📖 Portfolio: finish mobile version <a name="about-project"></a>
 
-In this project, I will create a portfolio website. Using Flexbox, Hover effect and Figma's template is required for this exercise. My goal here is to master all of the tools and best practices I learned about in previous steps. I will be using them in all Microverse projects and most likely in my future job as well, so it is important to know them!
+In this project, I will create a portfolio website in mobile version. Using Flexbox, Grid layout, Enable button, Hover effect and Figma's template is required for this exercise. My goal here is to master all of the tools and best practices I learned about in previous steps. I will be using them in all Microverse projects and most likely in my future job as well, so it is important to know them!
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -53,16 +53,17 @@ In this project, I will create a portfolio website. Using Flexbox, Hover effect 
 - **Follow a correct Gitflow**
 - **Comply with linters**
 - **Understand how to parse a Figma design to create a UI**
+- **Grid layout**
 - **Flexbox to place elements in the page**
-- **Build a personal portfolio site**
-- **Use images and backgrounds to enhance the look of the website**
+- **Build a personal portfolio site movil version**
+- **Use images and backgrounds, button interactions to enhance the look of the website**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://carlosigreda.github.io/Portfolio-setup-and-mobile-first)
+- [Live Demo Link](https://carlosigreda.github.io)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,7 +101,7 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Use CSS Grid to place elements in the page**
+- [ ] **Adapt this portfolio site to a desktop version**
 - [ ] **Interaction using Javascript**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -138,6 +139,10 @@ I would like to thank all Microverse staff and my learning partners as well.
 - **How to use flexbox?**
 
   - The main idea behind the flex layout is to give the container the ability to alter its items’ width/height (and order) to  best fill the available space (mostly to accommodate to all kind of display devices and screen sizes). A flex container expands items to fill available free space or shrinks them to prevent overflow.
+
+- **What is grid layout?**
+
+  - CSS Grid Layout excels at dividing a page into major regions or defining the relationship in terms of size, position, and layer, between parts of a control built from HTML primitives.
 
 - **What is hover effect?**
 
