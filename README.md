@@ -63,7 +63,7 @@ In this project, I will create a portfolio website in mobile version. Using Flex
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://carlosigreda.github.io)
+- [Live Demo Link](https://carlosigreda.github.io/Portfolio-setup-and-mobile-first)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
