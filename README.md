@@ -11,6 +11,7 @@
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
 - [👥 Author](#author)
+- [👥 Collaborator](#collaborator)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -18,9 +19,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 Portfolio: finish mobile version <a name="about-project"></a>
+# 📖 Portfolio: add a contact form and finish the mobile version <a name="about-project"></a>
 
-In this project, I will create a portfolio website in mobile version. Using Flexbox, Grid layout, Enable button, Hover effect and Figma's template is required for this exercise. My goal here is to master all of the tools and best practices I learned about in previous steps. I will be using them in all Microverse projects and most likely in my future job as well, so it is important to know them!
+In this project, I will complete my portfolio website in mobile version adding a contact form with field validations. Using Flexbox, Grid layout, Enable button, Hover effect and Figma's template is required for this exercise. My goal here is to master all of the tools and best practices I learned about in previous steps. I will be using them in all Microverse projects and most likely in my future job as well, so it is important to know them!
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -57,7 +58,9 @@ In this project, I will create a portfolio website in mobile version. Using Flex
 - **Flexbox to place elements in the page**
 - **Build a personal portfolio site movil version**
 - **Use images and backgrounds, button interactions to enhance the look of the website**
-
+- **Create forms with HTML5 validations**
+- **Understand the importance of UX**
+- **Collect data by using teh Formspree service**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,11 +100,15 @@ Clone this repository to your desired folder:
 - Twitter: [@carlosigreda](https://twitter.com/carlosigreda)
 - LinkedIn: [carlos-jesús-igreda-rivas-323763116](https://www.linkedin.com/in/carlos-jes%C3%BAs-igreda-rivas-323763116/)
 
+## 👥 Collaborator <a name="collaborator"></a>
+
+- GitHub: [@DamianDib9](https://github.com/DamianDib9)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Adapt this portfolio site to a desktop version**
+- [ ] **Use of media queries**
 - [ ] **Interaction using Javascript**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -147,6 +154,14 @@ I would like to thank all Microverse staff and my learning partners as well.
 - **What is hover effect?**
 
   - Creating CSS link hover effects can add a bit of flair to an otherwise bland webpage. If you’ve ever found yourself stumped trying to make a slick hover effect, then I have six CSS effects for you to take and use for your next project.
+
+- **What is form validation?**
+
+  - When you enter data, the browser and/or the web server will check to see that the data is in the correct format and within the constraints set by the application. Validation done in the browser is called client-side validation, while validation done on the server is called server-side validation. In this chapter we are focusing on client-side validation.
+
+- **What is UX?**
+
+  - User experience (UX) design is the process design teams use to create products that provide meaningful and relevant experiences to users. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
