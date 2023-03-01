@@ -21,8 +21,8 @@
 #topnav {
   display: flex;
   justify-content: space-between;
-  padding: 3% 6.3% 0% 6.2%;
   background-color: white;
+  padding: 1% 6.2%;
 }
 
 #logotext {
@@ -38,7 +38,7 @@
 
 #idmain {
   display: grid;
-  grid-template-rows: 2fr;
+  grid-template-rows: 7fr;
   grid-template-columns: 1fr;
   gap: 6rem;
 }
@@ -46,14 +46,24 @@
 /* ------------COVER-SITE--------------- */
 
 .cover-site {
-  padding: 0 6.2%;
   display: flex;
   flex-direction: column;
+  background-color: white;
+  border-bottom-left-radius: 10vh;
+}
+
+.after-nav-container {
   background-image: url(./images/cover-site.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: white;
-  border-bottom-left-radius: 10vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.after-nav {
+  padding: 0 6.2%;
+  display: flex;
+  flex-direction: column;
 }
 
 .icons {
