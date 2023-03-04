@@ -14,6 +14,8 @@ body {
   background-color: rgba(235, 233, 233, 0.308);
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 a {
@@ -39,6 +41,7 @@ a {
   font-size: 1.125rem;
   line-height: 1.25rem;
   color: #6070ff;
+  overflow-y: hidden;
 }
 
 /* ------------MAIN--------------- */
@@ -113,6 +116,7 @@ main {
   text-align: left;
   margin-top: 5.625rem;
   margin-bottom: 0.625rem;
+  overflow-y: hidden;
 }
 
 .afternav p {
@@ -151,12 +155,64 @@ main {
   display: flex;
   flex-direction: column;
   margin: 0 1.5rem;
-  padding: 1rem 1rem;
+  padding: 1rem 1rem 0 1rem;
   background-color: white;
   border: 0.063rem solid #dfe1e6;
   border-radius: 1rem;
   gap: 1rem;
 }
+
+.s1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 0.8fr);
+  grid-column-gap: 0;
+  grid-row-gap: 0.5rem;
+  align-items: center;
+  grid-template-areas: "s1div1" "s1div2";
+}
+
+#s1div1 { grid-area: s1div1; }
+#s1div2 { grid-area: s1div2; }
+
+.s2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 0.7fr);
+  grid-column-gap: 0;
+  grid-row-gap: 0.5rem;
+  align-items: center;
+  grid-template-areas: "s2div1" "s2div2";
+}
+
+#s2div1 { grid-area: s2div1; }
+#s2div2 { grid-area: s2div2; }
+
+.s3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 0.8fr);
+  grid-column-gap: 0;
+  grid-row-gap: 0.5rem;
+  align-items: center;
+  grid-template-areas: "s3div1" "s3div2";
+}
+
+#s3div1 { grid-area: s3div1; }
+#s3div2 { grid-area: s3div2; }
+
+.s4 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 0.7fr);
+  grid-column-gap: 0;
+  grid-row-gap: 0.5rem;
+  align-items: center;
+  grid-template-areas: "s4div1" "s4div2";
+}
+
+#s4div1 { grid-area: s4div1; }
+#s4div2 { grid-area: s4div2; }
 
 .cardimgd {
   display: none;
@@ -354,8 +410,6 @@ li span {
 }
 
 .b4 {
-  width: 7.75rem;
-  height: 3rem;
   border-radius: 0.5rem;
   background-color: white;
   color: #6070ff;
@@ -455,6 +509,7 @@ li span {
   line-height: 3.25rem;
   color: #172b4d;
   text-align: left;
+  overflow-y: hidden;
 }
 
 #div1about p {
@@ -658,7 +713,7 @@ li span {
   color: #b3bac5;
 }
 
-/* ##########DESKTOP############ */
+/* #####################DESKTOP######################### */
 
 @media (min-width: 768px) {
   #hamburger {
@@ -685,11 +740,12 @@ li span {
 
   .topnav {
     padding: 1.5rem 9.688rem 1.5rem 9.688rem;
+    display: flex;
   }
 
   .afternav {
     padding: 15.0625rem 15.75rem 12rem 14.0875rem;
-    justify-content: end;
+    display: flex;
   }
 
   .afternav h1 {
@@ -701,8 +757,7 @@ li span {
     text-align: left;
     margin-top: 0;
     margin-bottom: 0.75rem;
-    width: 57.5rem;
-    height: 7.625rem;
+    overflow-y: hidden;
   }
 
   .afternav p {
@@ -713,8 +768,6 @@ li span {
     color: #344563;
     text-align: left;
     margin-bottom: 0.75rem;
-    width: 57.5rem;
-    height: 6.125rem;
   }
 
   .afternavcontainer {
@@ -725,6 +778,7 @@ li span {
     margin-top: 3.125rem;
     margin-left: 2.1625rem;
     margin-bottom: 3.94rem;
+    display: flex;
   }
 
   .cover {
@@ -740,31 +794,84 @@ li span {
 
   .work {
     margin: 0 8.875rem;
-    padding: 1.5rem 1.5rem;
     background-color: white;
     border: 0.063rem solid #dfe1e6;
     border-radius: 1rem;
     gap: 1rem;
+    padding: 1.5rem;
   }
 
   .s1 {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 2rem;
+    grid-row-gap: 0;
+    align-items: center;
+    grid-template-areas: "s1div1 s1div2";
+  }
+
+  #s1div1 {
+    grid-area: s1div1;
+  }
+
+  #s1div2 {
+    grid-area: s1div2;
+    padding-bottom: 4rem;
   }
 
   .s2 {
-    display: flex;
-    flex-direction: row-reverse;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 2rem;
+    grid-row-gap: 0;
+    align-items: center;
+    grid-template-areas: "s2div2 s2div1";
+  }
+
+  #s2div2 {
+    grid-area: s2div2;
+  }
+
+  #s2div1 {
+    grid-area: s2div1;
   }
 
   .s3 {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 2rem;
+    grid-row-gap: 0;
+    align-items: center;
+    grid-template-areas: "s3div1 s3div2";
+  }
+
+  #s3div1 {
+    grid-area: s3div1;
+  }
+
+  #s3div2 {
+    grid-area: s3div2;
   }
 
   .s4 {
-    display: flex;
-    flex-direction: row-reverse;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 2rem;
+    grid-row-gap: 0;
+    align-items: center;
+    grid-template-areas: "s4div2 s4div1";
+  }
+
+  #s4div2 {
+    grid-area: s4div2;
+  }
+
+  #s4div1 {
+    grid-area: s4div1;
   }
 
   .cardimgm {
@@ -773,7 +880,27 @@ li span {
 
   .cardimgd {
     display: flex;
-    flex-direction: column;
+    inline-size: 100%;
+  }
+
+  #s1div2 .cardtext {
+    inline-size: 100%;
+  }
+
+  #s2div2 .cardtext {
+    inline-size: 100%;
+  }
+
+  #s3div2 .cardtext {
+    inline-size: 100%;
+  }
+
+  #s4div2 .cardtext {
+    inline-size: 100%;
+  }
+
+  .cardimgd img {
+    inline-size: 100%;
   }
 
   .b6 {
@@ -791,13 +918,13 @@ li span {
   }
 
   #s1text {
-    padding: 2rem 1rem 2rem 2rem;
+    padding: 2rem 1rem 2rem 0;
     display: flex;
     gap: 0.5rem;
   }
 
   #s3text {
-    padding: 2rem 1rem 2rem 2rem;
+    padding: 0 1rem 2rem 0;
     display: flex;
     gap: 0.5rem;
   }
@@ -805,11 +932,13 @@ li span {
   #s1text p {
     padding-top: 1rem;
     padding-bottom: 1.4rem;
+    padding-right: 2rem;
   }
 
   #s3text p {
     padding-top: 1rem;
     padding-bottom: 1.4rem;
+    padding-right: 2rem;
   }
 
   #s1text .b4 {
@@ -821,13 +950,14 @@ li span {
   }
 
   #s2text {
-    padding: 2rem 1rem 2rem 2rem;
+    padding: 2rem 0 2rem 1rem;
     display: flex;
+    flex-wrap: wrap;
     gap: 0.5rem;
   }
 
   #s4text {
-    padding: 2rem 1rem 2rem 2rem;
+    padding: 0 1rem 2rem 1rem;
     display: flex;
     gap: 0.5rem;
   }
@@ -900,7 +1030,7 @@ li span {
 
   .s2pd {
     display: block;
-    padding-right: 2rem;
+    padding-right: 3rem;
   }
 
   .s2pm {
@@ -909,6 +1039,7 @@ li span {
 
   .s3pd {
     display: block;
+    padding-right: 3rem;
   }
 
   .s3pm {
@@ -917,7 +1048,7 @@ li span {
 
   .s4pd {
     display: block;
-    padding-right: 1rem;
+    padding-right: 2rem;
   }
 
   .s4pm {
@@ -1010,8 +1141,6 @@ li span {
 
   #idhand {
     display: block;
-    width: 3.563rem;
-    height: 3.563rem;
     margin-right: 2rem;
     margin-top: 2.5rem;
   }
