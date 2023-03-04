@@ -11,7 +11,6 @@
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
 - [👥 Author](#author)
-- [👥 Collaborator](#collaborator)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -21,7 +20,7 @@
 
 # 📖 Portfolio: add a contact form and finish the mobile version <a name="about-project"></a>
 
-In this project, I will complete my portfolio website in mobile version adding a contact form with field validations. Using Flexbox, Grid layout, Enable button, Hover effect and Figma's template is required for this exercise. My goal here is to master all of the tools and best practices I learned about in previous steps. I will be using them in all Microverse projects and most likely in my future job as well, so it is important to know them!
+In this project, I will add the desktop version of my portfolio website to my mobile version applying media queries. Using Flexbox, Grid layout, Enable button, Hover effect and Figma's template is required for this exercise. My goal here is to master all of the tools and best practices I learned about in previous steps. I will be using them in all Microverse projects and most likely in my future job as well, so it is important to know them!
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -53,7 +52,7 @@ In this project, I will complete my portfolio website in mobile version adding a
 
 - **Follow a correct Gitflow**
 - **Comply with linters**
-- **Understand how to parse a Figma design to create a UI**
+- **Parse a Figma design to create a UI**
 - **Grid layout**
 - **Flexbox to place elements in the page**
 - **Build a personal portfolio site movil version**
@@ -61,12 +60,13 @@ In this project, I will complete my portfolio website in mobile version adding a
 - **Create forms with HTML5 validations**
 - **Understand the importance of UX**
 - **Collect data by using teh Formspree service**
+- **create UIs adaptable to different screen sizes using media queries**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://carlosigreda.github.io/Portfolio-setup-and-mobile-first)
+- [Live Demo Link](https://carlosigreda.github.io)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,15 +100,11 @@ Clone this repository to your desired folder:
 - Twitter: [@carlosigreda](https://twitter.com/carlosigreda)
 - LinkedIn: [carlos-jesús-igreda-rivas-323763116](https://www.linkedin.com/in/carlos-jes%C3%BAs-igreda-rivas-323763116/)
 
-## 👥 Collaborator <a name="collaborator"></a>
-
-- GitHub: [@DamianDib9](https://github.com/DamianDib9)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Use of media queries**
+- [ ] **Animations and Transitions**
 - [ ] **Interaction using Javascript**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -162,6 +158,10 @@ I would like to thank all Microverse staff and my learning partners as well.
 - **What is UX?**
 
   - User experience (UX) design is the process design teams use to create products that provide meaningful and relevant experiences to users. 
+
+- **What is media query?**
+
+  - Media queries allow you to apply CSS styles depending on a device's general type (such as print vs. screen) or other characteristics such as screen resolution or browser viewport width. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

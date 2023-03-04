@@ -11,25 +11,32 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 
-<body id="idbody">
+<body>
 
 
-    <main id="idmain">
-        <section class="cover-site">
-            <nav id="topnav">
-                <a href="#" id="logotext">
-                    My Logo
-                </a>
-                <a href="#">
-                    <img id="hamburger" src="./images/hamburger.svg" alt="menu-icon">
-                </a>
-            </nav>
-            <div class="after-nav-container">
-                <div class="after-nav">
-                    <h1 id="idh1">
+    <main>
+        <section class="cover">
+            <header class="navcontainer">
+                <nav class="topnav">
+                    <a href="#" id="logotext">
+                        My Logo
+                    </a>
+                    <a href="#">
+                        <img id="hamburger" src="./images/hamburger.svg" alt="menu-icon">
+                    </a>
+                    <ul>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="afternavcontainer">
+                <div class="afternav">
+                    <h1>
                         I'm Carlos <br> Glad to see you!
                     </h1>
-                    <p id="idp1">
+                    <p>
                         I’m a software developer! I can help you build a product , feature or website Look through some
                         of
                         my work and experience! If you like what you see and have a project you need coded, don’t
@@ -39,11 +46,11 @@
                     </p>
 
 
-                    <div id="idsocial">
+                    <div class="idsocial">
                         <a href="#" id="idconnect">
                             LET'S CONNECT
                         </a>
-                        <ul class="icons">
+                        <ul id="icons">
                             <li><a href="https://twitter.com/carlosigreda" target="_blank" rel="noopener"><img
                                         src="./images/Twiter.svg" alt="Twiter"></a></li>
                             <li><a href="https://www.linkedin.com/in/carlos-jes%C3%BAs-igreda-rivas-323763116/"
@@ -61,173 +68,299 @@
                 </div>
             </div>
         </section>
-        <section class="works-about">
+
+        <section class="worksabout">
             <article class="work s1">
-                <img src="./images/s1.svg" alt="tonic">
-                <h2>Tonic</h2>
-                <div class="info">
-                    <h4>CANOPY</h4>
-                    <ul class="extra">
-                        <li class="li1"><span>Back End Dev</span></li>
-                        <li class="li2"><span>2015</span></li>
-                    </ul>
+                <div id="s1div1">
+                    <div id="s1imgm" class="cardimgm">
+                        <img src="./images/s1.svg" alt="tonic-mobile">
+                    </div>
+                    <div id="s1imgd" class="cardimgd">
+                        <img src="./images/s1imgd.svg" alt="tonic-desktop">
+                    </div>
                 </div>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                <ul class="skills">
-                    <li>
-                        <a href="#"><button class="b1">html</button></a>
-                    </li>
-                    <li>
-                        <a href="#"><button class="b2">css</button></a>
-                    </li>
-                    <li>
-                        <a href="#"><button class="b3">javascript</button></a>
-                    </li>
-                </ul>
-                <a href="#"><button class="b4">See Project</button></a>
+                <div id="s1div2">
+                    <div id="s1text" class="cardtext">
+                        <h2>Tonic</h2>
+                        <div class="info">
+                            <h4>CANOPY</h4>
+                            <ul id="s1ulm" class="extra">
+                                <li id="s1li1m"><span>Back End Dev</span></li>
+                                <li id="s1li2m"><span>2015</span></li>
+                            </ul>
+                            <ul id="s1uld" class="extra">
+                                <li id="s1li1d"><span>Back End Dev</span></li>
+                                <li id="s1li2d"><span>Full Stack Dev</span></li>
+                                <li id="s1li3d"><span>Lead Developer</span></li>
+                                <li id="s1li4d"><span>2015</span></li>
+                                <li id="s1li5d"><span>2018</span></li>
+                            </ul>
+                        </div>
+                        <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                        <ul class="skills">
+                            <li>
+                                <a href="#"><button class="b1">html</button></a>
+                            </li>
+                            <li>
+                                <a href="#"><button class="b2">css</button></a>
+                            </li>
+                            <li>
+                                <a href="#"><button class="b3">javaScript</button></a>
+                            </li>
+                        </ul>
+                        <a href="#"><button class="b4">See Project</button></a>
+                    </div>
+                </div>
             </article>
-            <article class="work s2">
-                <img src="./images/s2.svg" alt="tonic">
-                <h2>Multi-Post <br> Stories</h2>
-                <div class="info">
-                    <h4>CANOPY</h4>
-                    <ul class="extra">
-                        <li class="li1"><span>Back End Dev</span></li>
-                        <li class="li2"><span>2015</span></li>
-                    </ul>
+            <article id="works2" class="work s2">
+                <div id="s2div1">
+                    <div id="s2imgm" class="cardimgm">
+                        <img src="./images/s2.svg" alt="multi-post-stories-mobile">
+                    </div>
+                    <div id="s2imgd" class="cardimgd">
+                        <img src="./images/s2imgd.svg" alt="multi-post-stories-desktop">
+                    </div>
                 </div>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                <ul class="skills">
-                    <li>
-                        <a href="#"><button class="b1">html</button></a>
-                    </li>
-                    <li>
-                        <a href="#"><button class="b2">css</button></a>
-                    </li>
-                    <li>
-                        <a href="#"><button class="b3">javascript</button></a>
-                    </li>
-                </ul>
-                <a href="#"><button class="b4">See Project</button></a>
+                <div id="s2div2">
+                    <div id="s2text" class="cardtext">
+                        <h2 class="s2h2m">Multi-Post <br> Stories</h2>
+                        <h2 class="s2h2d">Multi-Post Stories</h2>
+                        <div class="info">
+                            <h4 class="s2h4m">CANOPY</h4>
+                            <h4 class="s2h4d">FACEBOOK</h4>
+                            <ul id="s2ulm" class="extra">
+                                <li id="s2li1m"><span>Back End Dev</span></li>
+                                <li id="s2li2m"><span>2015</span></li>
+                            </ul>
+                            <ul id="s2uld" class="extra">
+                                <li id="s2li1d"><span>Back End Dev</span></li>
+                                <li id="s2li2d"><span>Full Stack Dev</span></li>
+                                <li id="s2li3d"><span>Lead Developer</span></li>
+                                <li id="s2li4d"><span>2015</span></li>
+                                <li id="s2li5d"><span>2018</span></li>
+                            </ul>
+                        </div>
+                        <p class="s2pm">A daily selection of privately personalized reads; no accounts or sign-ups
+                            required.
+                        </p>
+                        <p class="s2pd">Experimental content creation feature that allows users to add to an existing
+                            story
+                            over
+                            the course of a day without spamming their friends.</p>
+                        <ul class="skills">
+                            <li>
+                                <a href="#"><button class="b1">html</button></a>
+                            </li>
+                            <li>
+                                <a href="#"><button class="b6">Ruby on rails</button></a>
+                            </li>
+                            <li>
+                                <a href="#"><button class="b2">css</button></a>
+                            </li>
+                            <li>
+                                <a href="#"><button class="b3">javaScript</button></a>
+                            </li>
+                        </ul>
+                        <a href="#"><button class="b4">See Project</button></a>
+                    </div>
+                </div>
             </article>
             <article class="work s3">
-                <img src="./images/s3.svg" alt="tonic">
-                <h2>Tonic</h2>
-                <div class="info">
-                    <h4>CANOPY</h4>
-                    <ul class="extra">
-                        <li class="li1"><span>Back End Dev</span></li>
-                        <li class="li2"><span>2015</span></li>
-                    </ul>
+                <div id="s3div1">
+                    <div id="s3imgm" class="cardimgm">
+                        <img src="./images/s3.svg" alt="facebook360-mobile">
+                    </div>
+                    <div id="s3imgd" class="cardimgd">
+                        <img src="./images/s3imgd.svg" alt="facebook360-desktop">
+                    </div>
                 </div>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                <ul class="skills">
-                    <li>
-                        <a href="#"><button class="b1">html</button></a>
-                    </li>
-                    <li>
-                        <a href="#"><button class="b2">css</button></a>
-                    </li>
-                    <li>
-                        <a href="#"><button class="b3">javascript</button></a>
-                    </li>
-                </ul>
-                <a href="#"><button class="b4">See Project</button></a>
+                <div id="s3div2">
+                    <div id="s3text" class="cardtext">
+                        <h2 class="s3h2m">Tonic</h2>
+                        <h2 class="s3h2d">Facebook 360</h2>
+                        <div class="info">
+                            <h4 class="s3h4m">CANOPY</h4>
+                            <h4 class="s3h4d">FACEBOOK</h4>
+                            <ul id="s3ulm" class="extra">
+                                <li id="s3li1m"><span>Back End Dev</span></li>
+                                <li id="s3li2m"><span>2015</span></li>
+                            </ul>
+                            <ul id="s3uld" class="extra">
+                                <li id="s3li1d"><span>Back End Dev</span></li>
+                                <li id="s3li2d"><span>Full Stack Dev</span></li>
+                                <li id="s3li3d"><span>Lead Developer</span></li>
+                                <li id="s3li4d"><span>2015</span></li>
+                                <li id="s3li5d"><span>2018</span></li>
+                            </ul>
+                        </div>
+                        <p class="s3pm">A daily selection of privately personalized reads; no accounts or sign-ups
+                            required.
+                        </p>
+                        <p class="s3pd">Exploring the future of media in Facebook's first Virtual Reality app; a place
+                            to
+                            discover
+                            and enjoy 360 photos and videos on Gear VR.</p>
+                        <ul class="skills">
+                            <li>
+                                <a href="#"><button class="b1">html</button></a>
+                            </li>
+                            <li>
+                                <a href="#"><button class="b6">Ruby on rails</button></a>
+                            </li>
+                            <li>
+                                <a href="#"><button class="b2">css</button></a>
+                            </li>
+                            <li>
+                                <a href="#"><button class="b3">javaScript</button></a>
+                            </li>
+                        </ul>
+                        <div class="byhcontainer">
+                            <a href="#"><button id="s3b4" class="b4">See Project</button></a>
+                            <img id="idhand" src="./images/hand.svg" alt="hand">
+                        </div>
+                    </div>
+                </div>
             </article>
             <article class="work s4">
-                <img src="./images/s4.svg" alt="tonic">
-                <h2>Multi-Post <br> Stories</h2>
-                <div class="info">
-                    <h4>CANOPY</h4>
-                    <ul class="extra">
-                        <li class="li1"><span>Back End Dev</span></li>
-                        <li class="li2"><span>2015</span></li>
-                    </ul>
+                <div id="s4div1">
+                    <div id="s4imgm" class="cardimgm">
+                        <img src="./images/s4.svg" alt="uber-navigation-mobile">
+                    </div>
+                    <div id="s4imgd" class="cardimgd">
+                        <img src="./images/s4imgd.svg" alt="uber-navigation-desktop">
+                    </div>
                 </div>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                <ul class="skills">
-                    <li>
-                        <a href="#"><button class="b1">html</button></a>
-                    </li>
-                    <li>
-                        <a href="#"><button class="b2">css</button></a>
-                    </li>
-                    <li>
-                        <a href="#"><button class="b3">javascript</button></a>
-                    </li>
-                </ul>
-                <a href="#"><button class="b4">See Project</button></a>
+                <div id="s4div2">
+                    <div id="s4text" class="cardtext">
+                        <h2 class="s4h2m">Multi-Post <br> Stories</h2>
+                        <h2 class="s4h2d">Uber Navigation</h2>
+                        <div class="info">
+                            <h4 class="s4h4m">CANOPY</h4>
+                            <h4 class="s4h4d">Uber</h4>
+                            <ul id="s4ulm" class="extra">
+                                <li id="s4li1m"><span>Back End Dev</span></li>
+                                <li id="s4li2m"><span>2015</span></li>
+                            </ul>
+                            <ul id="s4uld" class="extra">
+                                <li id="s4li1d"><span>Back End Dev</span></li>
+                                <li id="s4li2d"><span>Full Stack Dev</span></li>
+                                <li id="s4li3d"><span>Lead Developer</span></li>
+                                <li id="s4li4d"><span>2015</span></li>
+                                <li id="s4li5d"><span>2018</span></li>
+                            </ul>
+                        </div>
+                        <p class="s4pm">A daily selection of privately personalized reads; no accounts or sign-ups
+                            required.
+                        </p>
+                        <p class="s4pd">A smart assistant to make driving more safe, efficient, and fun by unlocking
+                            your
+                            most expensive computer: your car.</p>
+                        <ul class="skills">
+                            <li>
+                                <a href="#"><button class="b1">html</button></a>
+                            </li>
+                            <li>
+                                <a href="#"><button class="b6">Ruby on rails</button></a>
+                            </li>
+                            <li>
+                                <a href="#"><button class="b2">css</button></a>
+                            </li>
+                            <li>
+                                <a href="#"><button class="b3">javaScript</button></a>
+                            </li>
+                        </ul>
+                        <a href="#"><button class="b4">See Project</button></a>
+                    </div>
+                </div>
             </article>
         </section>
-        <section class="about-contact">
-            <article class="about-myself">
-                <h2>About <br> Myself</h2>
-                <p>
-                    Hello I’m a software developer! I can help you build a product , feature or website Look through
-                    some of
-                    my work and experience! If you like what you see and have a project you need coded, don’t hestiate
-                    to
-                    contact me.
-                </p>
-                <div id="socialid">
-                    <h3><a href="#" id="connectid">
-                            LET'S CONNECT
-                        </a></h3>
-                    <ul class="ic">
-                        <li><a href="https://github.com/CarlosIgreda" target="_blank" rel="noopener"><img
-                                    src="./images/Github.svg" alt="Github"></a></li>
-                        <li><a href="https://www.linkedin.com/in/carlos-jes%C3%BAs-igreda-rivas-323763116/"
-                                target="_blank" rel="noopener"><img src="./images/Linkedin.svg" alt="Linkedin"></a></li>
-                        <li><a href="https://www.angellist.com/" target="_blank" rel="noopener"><img
-                                    src="./images/AngelList.svg" alt="AngelList"></a></li>
-                        <li><a href="https://twitter.com/carlosigreda" target="_blank" rel="noopener"><img
-                                    src="./images/Twiter.svg" alt="Twiter"></a></li>
-                        <li><a href="https://medium.com/" target="_blank" rel="noopener"><img src="./images/Medium.svg"
-                                    alt="Medium"></a></li>
-                    </ul>
-                </div>
-                <a href="#"><button class="b5">Get my resume</button></a>
-                <ul class="aboutul1">
-                    <li>
-                        <div id="idlanguage" class="more-info">
-                            <h2>Languages</h2>
-                            <img src="./images/down-arrow.svg" alt="down-arrow">
+        <section class="aboutcontact">
+            <article class="aboutmyself">
+                <div class="gabout">
+                    <div id="div1about">
+                        <h2>About <br> Myself</h2>
+                        <p>
+                            Hello I’m a software developer! I can help you build a product , feature or website Look
+                            through
+                            some of
+                            my work and experience! If you like what you see and have a project you need coded, don’t
+                            hestiate
+                            to
+                            contact me.
+                        </p>
+                        <div>
+                            <h3><a href="#" id="connectid">
+                                    LET'S CONNECT
+                                </a></h3>
+                            <ul id="ic">
+                                <li><a href="https://github.com/CarlosIgreda" target="_blank" rel="noopener"><img
+                                            src="./images/Github.svg" alt="Github"></a></li>
+                                <li><a href="https://www.linkedin.com/in/carlos-jes%C3%BAs-igreda-rivas-323763116/"
+                                        target="_blank" rel="noopener"><img src="./images/Linkedin.svg"
+                                            alt="Linkedin"></a>
+                                </li>
+                                <li><a href="https://www.angellist.com/" target="_blank" rel="noopener"><img
+                                            src="./images/AngelList.svg" alt="AngelList"></a></li>
+                                <li><a href="https://twitter.com/carlosigreda" target="_blank" rel="noopener"><img
+                                            src="./images/Twiter.svg" alt="Twiter"></a></li>
+                                <li><a href="https://medium.com/" target="_blank" rel="noopener"><img
+                                            src="./images/Medium.svg" alt="Medium"></a></li>
+                            </ul>
                         </div>
-                        <ul id="ul-about">
-                            <li><img src="./images/javascript-icon.svg" alt="javascript"><span>JavaScript</span></li>
-                            <li><img src="./images/html-icon.svg" alt="html"><span>HTML</span></li>
-                            <li><img src="./images/css-icon.svg" alt="css"><span>CSS</span></li>
+                        <a href="#"><button class="b5">Get my resume</button></a>
+                    </div>
+                    <div id="div2about">
+                        <ul class="aboutul1">
+                            <li>
+                                <div id="idlanguage" class="moreinfo">
+                                    <h2>Languages</h2>
+                                    <img src="./images/down-arrow.svg" alt="down-arrow">
+                                </div>
+                                <ul id="ulabout">
+                                    <li><img src="./images/javascript-icon.svg" alt="javascript"><span>JavaScript</span>
+                                    </li>
+                                    <li><img src="./images/html-icon.svg" alt="html"><span>HTML</span></li>
+                                    <li><img src="./images/css-icon.svg" alt="css"><span>CSS</span></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="moreinfo separator">
+                                    <h2>Frameworks</h2>
+                                    <img src="./images/right-arrow.svg" alt="right-arrow">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="moreinfo separator">
+                                    <h2>Skills</h2>
+                                    <img src="./images/right-arrow.svg" alt="right-arrow">
+                                </div>
+                            </li>
                         </ul>
-                    </li>
-                    <li>
-                        <div class="more-info separator">
-                            <h2>Frameworks</h2>
-                            <img src="./images/right-arrow.svg" alt="right-arrow">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="more-info separator">
-                            <h2>Skills</h2>
-                            <img src="./images/right-arrow.svg" alt="right-arrow">
-                        </div>
-                    </li>
-                </ul>
+                    </div>
             </article>
-            <article class="contact-form">
-                <h2>Contact me</h2>
-                <p>If you have an application you are interested in developing a feature that you need built or a
-                    project
-                    that needs coding. I'd love to help with it.
-                </p>
-                <form id="frm" name="form" action="https://formspree.io/f/xgebyaod" method="POST">
-                    <input type="text" name="name" id="name" class="data-form" placeholder="Enter your name" required
-                        maxlength="30">
-                    <input type="email" name="email" id="email" class="data-form" placeholder="Enter your email"
-                        required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
-                    <textarea name="message" class="data-form" id="message" cols="30" rows="10" required maxlength="500"
-                        placeholder="Write your messsage here"></textarea>
-                    <input type="submit" id="submit" value="Get in touch">
-                </form>
+            </div>
+            <article id="contactform">
+                <div class="gcontact">
+                    <div class="div1contact"></div>
+                    <div class="div2contact">
+                        <h2>Contact me</h2>
+                        <p>If you have an application you are interested in developing a feature that you need built or
+                            a
+                            project
+                            that needs coding. I'd love to help with it.
+                        </p>
+                        <form id="frm" name="form" action="https://formspree.io/f/xgebyaod" method="POST">
+                            <input type="text" name="name" id="name" class="dataform" placeholder="Enter your name"
+                                required maxlength="30">
+                            <input type="email" name="email" id="email" class="dataform" placeholder="Enter your email"
+                                required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                            <textarea name="message" class="dataform" id="message" cols="30" rows="10" required
+                                maxlength="500" placeholder="Write your messsage here"></textarea>
+                            <input type="submit" id="submit" value="Get in touch">
+                        </form>
+                    </div>
+                    <div class="div3contact"></div>
+                </div>
             </article>
         </section>
     </main>
