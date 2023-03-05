@@ -42,6 +42,7 @@ a {
   line-height: 1.25rem;
   color: #6070ff;
   overflow-y: hidden;
+  animation: blink 1s infinite;
 }
 
 /* ------------MAIN--------------- */
