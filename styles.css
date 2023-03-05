@@ -42,6 +42,21 @@ a {
   line-height: 1.25rem;
   color: #6070ff;
   overflow-y: hidden;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1; /* establece la opacidad en 1 (completamente visible) al comienzo de la animación */
+  }
+
+  50% {
+    opacity: 0; /* establece la opacidad en 0 (completamente transparente) a la mitad de la animación */
+  }
+
+  100% {
+    opacity: 1; /* establece la opacidad en 1 (completamente visible) al final de la animación */
+  }
 }
 
 /* ------------MAIN--------------- */
@@ -1431,5 +1446,19 @@ li span {
 
   #icons {
     margin-top: 0.875rem;
+  }
+
+  @keyframes blink {
+    0% {
+      opacity: 1; /* establece la opacidad en 1 (completamente visible) al comienzo de la animación */
+    }
+
+    50% {
+      opacity: 0; /* establece la opacidad en 0 (completamente transparente) a la mitad de la animación */
+    }
+
+    100% {
+      opacity: 1; /* establece la opacidad en 1 (completamente visible) al final de la animación */
+    }
   }
 }
