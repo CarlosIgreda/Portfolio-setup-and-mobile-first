@@ -636,7 +636,8 @@ li span {
   flex-direction: column;
   gap: 1rem;
   background-image: url(./images/contact-form-shapes-mobile.svg);
-  background-size: cover;
+  background-size: contain;
+  background-position: 100% 135%;
   background-repeat: no-repeat;
   background-color: #6070ff;
   border-top-left-radius: 10vh;
@@ -726,6 +727,10 @@ li span {
 
 .dataform::placeholder {
   color: #b3bac5;
+}
+
+.hide-label {
+  display: none;
 }
 
 /* #####################DESKTOP######################### */
