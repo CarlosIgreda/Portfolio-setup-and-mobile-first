@@ -66,7 +66,7 @@ In this project, I will add the desktop version of my portfolio website to my mo
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://carlosigreda.github.io/Portfolio-setup-and-mobile-first)
+- [Live Demo Link](https://carlosigreda.github.io)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
