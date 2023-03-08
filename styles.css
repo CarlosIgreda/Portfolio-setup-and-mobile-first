@@ -755,6 +755,14 @@ li span {
   text-indent: -999em;
 }
 
+#hamburger {
+  transition: all 300ms ease-in-out;
+}
+
+#hamburger:hover {
+  transform: scale(1.5);
+}
+
 /* #####################DESKTOP######################### */
 
 @media (min-width: 768px) {
