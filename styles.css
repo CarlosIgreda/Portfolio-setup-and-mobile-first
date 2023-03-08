@@ -48,17 +48,14 @@ a {
 @keyframes blink {
   0% {
     opacity: 1;
-    /* establece la opacidad en 1 (completamente visible) al comienzo de la animación */
   }
 
   50% {
     opacity: 0;
-    /* establece la opacidad en 0 (completamente transparente) a la mitad de la animación */
   }
 
   100% {
     opacity: 1;
-    /* establece la opacidad en 1 (completamente visible) al final de la animación */
   }
 }
 
@@ -347,7 +344,7 @@ main {
   display: none;
 }
 
-.work h4 {
+.work h3 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -702,7 +699,7 @@ li span {
 #frm {
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: 1rem;
 }
 
 .dataform {
@@ -1109,7 +1106,7 @@ li span {
     color: #172b4d;
   }
 
-  .info h4 {
+  .info h3 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -1482,17 +1479,14 @@ li span {
   @keyframes blink {
     0% {
       opacity: 1;
-      /* establece la opacidad en 1 (completamente visible) al comienzo de la animación */
     }
 
     50% {
       opacity: 0;
-      /* establece la opacidad en 0 (completamente transparente) a la mitad de la animación */
     }
 
     100% {
       opacity: 1;
-      /* establece la opacidad en 1 (completamente visible) al final de la animación */
     }
   }
 }
