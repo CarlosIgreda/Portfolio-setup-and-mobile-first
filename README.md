@@ -10,7 +10,7 @@
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
-- [👥 Author](#author)
+- [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -20,7 +20,7 @@
 
 # 📖 Portfolio: add a contact form and finish the mobile version <a name="about-project"></a>
 
-In this project, I will add the desktop version of my portfolio website to my mobile version applying media queries. Using Flexbox, Grid layout, Enable button, Hover effect and Figma's template is required for this exercise. My goal here is to master all of the tools and best practices I learned about in previous steps. I will be using them in all Microverse projects and most likely in my future job as well, so it is important to know them!
+In this project, we have improved the accessibility using international standards. Our goal here is to master all of the tools and best practices we have learned about in previous steps. We will be using them in all Microverse projects and most likely in our future jobs as well, so it is important to know them!
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -61,6 +61,7 @@ In this project, I will add the desktop version of my portfolio website to my mo
 - **Understand the importance of UX**
 - **Collect data by using teh Formspree service**
 - **create UIs adaptable to different screen sizes using media queries**
+- **Accesisibility Checked**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,11 +95,17 @@ Clone this repository to your desired folder:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👥 Author <a name="author"></a>
-
+## 👥 Authors <a name="authors"></a>
+**Carlos Igreda**
 - GitHub: [@CarlosIgreda](https://github.com/CarlosIgreda)
 - Twitter: [@carlosigreda](https://twitter.com/carlosigreda)
 - LinkedIn: [carlos-jesús-igreda-rivas-323763116](https://www.linkedin.com/in/carlos-jes%C3%BAs-igreda-rivas-323763116/)
+
+**Dany Augustin**
+- GitHub: [@amiralda](https://github.com/amiralda)
+
+**Hernán Güemes**
+- GitHub: [@HFG43](https://github.com/HFG43)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,6 +113,7 @@ Clone this repository to your desired folder:
 
 - [ ] **Animations and Transitions**
 - [ ] **Interaction using Javascript**
+- [ ] **Font size alternative selection and option to change color contrast.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -163,7 +171,12 @@ I would like to thank all Microverse staff and my learning partners as well.
 
   - Media queries allow you to apply CSS styles depending on a device's general type (such as print vs. screen) or other characteristics such as screen resolution or browser viewport width. 
 
+- **What is accessibility?**
+
+  - Accessibility is essential for developers and organizations that want to create high quality websites and web tools, and not exclude people from using their products and services.
+  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 📝 License <a name="license"></a>
 
