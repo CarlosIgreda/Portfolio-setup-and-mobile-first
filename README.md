@@ -18,7 +18,7 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 Portfolio: add a contact form and finish the mobile version <a name="about-project"></a>
+# 📖 Portfolio: Accessibility <a name="about-project"></a>
 
 In this project, we have improved the accessibility using international standards. Our goal here is to master all of the tools and best practices we have learned about in previous steps. We will be using them in all Microverse projects and most likely in our future jobs as well, so it is important to know them!
 
