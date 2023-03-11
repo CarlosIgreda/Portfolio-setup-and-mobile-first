@@ -12,6 +12,7 @@
   - [Setup](#setup)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
+- [📹 Loom Video](#loom-video)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -101,12 +102,6 @@ Clone this repository to your desired folder:
 - Twitter: [@carlosigreda](https://twitter.com/carlosigreda)
 - LinkedIn: [carlos-jesús-igreda-rivas-323763116](https://www.linkedin.com/in/carlos-jes%C3%BAs-igreda-rivas-323763116/)
 
-**Dany Augustin**
-- GitHub: [@amiralda](https://github.com/amiralda)
-
-**Hernán Güemes**
-- GitHub: [@HFG43](https://github.com/HFG43)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
@@ -114,6 +109,12 @@ Clone this repository to your desired folder:
 - [ ] **Animations and Transitions**
 - [ ] **Interaction using Javascript**
 - [ ] **Font size alternative selection and option to change color contrast.**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📹 Loom Video <a name="loom-video"></a>
+
+- [Loom Video Link](https://www.loom.com/share/e7a91bdbbc324184b422750316361bf4)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
