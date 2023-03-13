@@ -120,6 +120,12 @@ Clone this repository to your desired folder:
 
 ## 🤝 Contributing <a name="contributing"></a>
 
+👤 ** Larry Villegas **
+
+- GitHub: [@LarryIVC](https://github.com/LarryIVC)
+- Twitter: [@LarryVillegas](https://twitter.com/LarryVillegas)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/larry-villegas-26216b259/)
+
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
