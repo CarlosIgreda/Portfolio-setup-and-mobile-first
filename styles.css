@@ -14,8 +14,9 @@ body {
   background-color: rgba(235, 233, 233, 0.308);
   display: flex;
   flex-direction: column;
-  overflow-x: hidden;
   max-width: 100%;
+  box-sizing: border-box;
+  font-size: 65%;
 }
 
 a {
@@ -29,10 +30,92 @@ a {
   justify-content: space-between;
   background-color: white;
   padding: 1rem 1.5rem;
+  align-items: baseline;
 }
 
 .topnav ul {
   display: none;
+}
+
+.mobilemenu-container {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  pointer-events: none;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  gap: 2rem;
+}
+
+#x {
+  cursor: pointer;
+}
+
+.mobilemenu-container.activated {
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  background-color: #4658fdcc !important;
+  animation-name: bouncein;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
+  z-index: 5;
+}
+
+@keyframes bouncein {
+  from {
+    transform: translateY(-100%);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  60% {
+    transform: translateY(30%);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+
+  80% {
+    transform: translateY(-10%);
+    animation-timing-function: ease-in;
+  }
+
+  to {
+    transform: translateY(0%);
+    animation-timing-function: ease-out;
+  }
+}
+
+.xdiv {
+  align-self: flex-end;
+  padding-right: 1.5rem;
+  padding-top: 1.2rem;
+}
+
+.mobilemenu-container ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.mobilemenu-container ul li {
+  padding-left: 1.5rem;
+}
+
+.mobilemenu-container ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  line-height: 44px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 2rem;
 }
 
 #logotext {
@@ -794,7 +877,7 @@ li span {
   }
 
   .afternav {
-    padding: 15.0625rem 15.75rem 12rem 14.0875rem;
+    padding: 10rem 15.75rem 8rem 14.0875rem;
     display: flex;
   }
 
