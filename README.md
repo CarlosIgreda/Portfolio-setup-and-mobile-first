@@ -19,9 +19,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 Portfolio: Accessibility <a name="about-project"></a>
+# 📖 Portfolio - mobile menu <a name="about-project"></a>
 
-In this project, we have improved the accessibility using international standards. Our goal here is to master all of the tools and best practices we have learned about in previous steps. We will be using them in all Microverse projects and most likely in our future jobs as well, so it is important to know them!
+In this project, we have implemented basic Javascript syntax, Javascript to manipulate DOM events. Our goal here is to master all of the tools and best practices we have learned about in previous steps. We will be using them in all Microverse projects and most likely in our future jobs as well, so it is important to know them!
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -32,6 +32,7 @@ In this project, we have improved the accessibility using international standard
   <ul>
     <li><a href="https://www.hostinger.com/tutorials/what-is-html">HTML</a></li>
     <li><a href="https://www.hostinger.com/tutorials/what-is-css">CSS</a></li>
+    <li><a href="https://www.hostinger.com/tutorials/what-is-javascript">JAVASCRIPT</a></li>
   </ul>
 </details>
 
@@ -63,6 +64,7 @@ In this project, we have improved the accessibility using international standard
 - **Collect data by using teh Formspree service**
 - **create UIs adaptable to different screen sizes using media queries**
 - **Accesisibility Checked**
+- **DOM events with Javascript**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,6 +122,12 @@ Clone this repository to your desired folder:
 
 ## 🤝 Contributing <a name="contributing"></a>
 
+👤 **Larry Villegas**
+
+- GitHub: [@LarryIVC](https://github.com/LarryIVC)
+- Twitter: [@LarryVillegas](https://twitter.com/LarryVillegas)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/larry-villegas-26216b259/)
+
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
@@ -175,6 +183,10 @@ I would like to thank all Microverse staff and my learning partners as well.
 - **What is accessibility?**
 
   - Accessibility is essential for developers and organizations that want to create high quality websites and web tools, and not exclude people from using their products and services.
+
+- **What is DOM?**
+
+  - The Document Object Model (DOM) is the data representation of the objects that comprise the structure and content of a document on the web. 
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
