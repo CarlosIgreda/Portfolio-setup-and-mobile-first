@@ -244,7 +244,7 @@ main {
 
 .worksabout {
   display: grid;
-  grid-template-rows: 4fr;
+  grid-template-rows: 6fr;
   grid-template-columns: 1fr;
   gap: 6rem;
 }
@@ -371,6 +371,10 @@ main {
   margin: 0;
 }
 
+.cardtext .s1h2d {
+  display: none;
+}
+
 .cardtext .s2h2d {
   display: none;
 }
@@ -383,15 +387,19 @@ main {
   display: none;
 }
 
-.info .s2h4d {
+.info .s1h3d {
   display: none;
 }
 
-.info .s3h4d {
+.info .s2h3d {
   display: none;
 }
 
-.info .s4h4d {
+.info .s3h3d {
+  display: none;
+}
+
+.info .s4h3d {
   display: none;
 }
 
@@ -906,10 +914,10 @@ li span {
   .afternavcontainer {
     background-image: url(./images/Header-bg-desktop.svg);
     background-repeat: no-repeat;
-    background-size: contain;
-    margin-right: 0.5rem;
+    background-size: cover;
+    margin-right: 2rem;
     margin-top: 3.125rem;
-    margin-left: 2.1625rem;
+    margin-left: 2rem;
     margin-bottom: 3.94rem;
     display: flex;
   }
@@ -1113,6 +1121,14 @@ li span {
     margin-top: 2rem;
   }
 
+  .cardtext .s1h2m {
+    display: none;
+  }
+
+  .cardtext .s1h2d {
+    display: flex;
+  }
+
   .cardtext .s2h2m {
     display: none;
   }
@@ -1137,27 +1153,35 @@ li span {
     display: flex;
   }
 
-  .info .s2h4m {
+  .info .s1h3m {
     display: none;
   }
 
-  .info .s2h4d {
+  .info .s1h3d {
     display: flex;
   }
 
-  .info .s3h4m {
+  .info .s2h3m {
     display: none;
   }
 
-  .info .s3h4d {
+  .info .s2h3d {
     display: flex;
   }
 
-  .info .s4h4m {
+  .info .s3h3m {
     display: none;
   }
 
-  .info .s4h4d {
+  .info .s3h3d {
+    display: flex;
+  }
+
+  .info .s4h3m {
+    display: none;
+  }
+
+  .info .s4h3d {
     display: flex;
   }
 
