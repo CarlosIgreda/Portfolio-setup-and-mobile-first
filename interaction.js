@@ -451,6 +451,7 @@ for (let i = 0; i < setButtons.length; i++) {
   setButtons[i].addEventListener('click', () => {
     popsgen[i].style.display = 'grid';
     document.querySelector('.popscont').style.position = 'fixed';
+    document.querySelector('.popscont').style.display = 'block';
   });
 }
 
@@ -458,5 +459,6 @@ for (let i = 0; i < xicon.length; i++) {
   xicon[i].addEventListener('click', () => {
     popsgen[i].style.display = 'none';
     document.querySelector('.popscont').style.position = 'static';
+    document.querySelector('.popscont').style.display = 'none';
   });
 }
