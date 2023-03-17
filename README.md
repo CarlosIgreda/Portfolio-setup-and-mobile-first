@@ -21,7 +21,7 @@
 
 # 📖 Portfolio - mobile menu <a name="about-project"></a>
 
-In this project, we have implemented basic Javascript syntax, Javascript to manipulate DOM events. Our goal here is to master all of the tools and best practices we have learned about in previous steps. We will be using them in all Microverse projects and most likely in our future jobs as well, so it is important to know them!
+In this project, we have implemented basic Javascript syntax, Javascript to manipulate DOM events, objects to store and access data, JavaScript events. Our goal here is to master all of the tools and best practices we have learned about in previous steps. We will be using them in all Microverse projects and most likely in our future jobs as well, so it is important to know them!
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -65,6 +65,8 @@ In this project, we have implemented basic Javascript syntax, Javascript to mani
 - **create UIs adaptable to different screen sizes using media queries**
 - **Accesisibility Checked**
 - **DOM events with Javascript**
+- **Javascript events**
+- **Use objects to store and access data**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,9 +110,7 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Animations and Transitions**
-- [ ] **Interaction using Javascript**
-- [ ] **Font size alternative selection and option to change color contrast.**
+- [ ] **Forms validation with Javascript**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
