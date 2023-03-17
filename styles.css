@@ -25,6 +25,28 @@ a {
 
 /* ------------HEADER--------------- */
 
+li span {
+  font-size: 1rem;
+  color: #7a869a;
+  display: inline-table;
+  vertical-align: middle;
+  margin-left: -0.063rem;
+  align-items: center;
+  margin-bottom: 0.063rem;
+}
+
+.info li span {
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1rem;
+  color: #7a869a;
+  display: inline-table;
+  vertical-align: middle;
+  margin-left: -0.063rem;
+  align-items: center;
+  margin-bottom: 0;
+}
+
 .topnav {
   display: flex;
   justify-content: space-between;
@@ -81,7 +103,7 @@ a {
 }
 
 .popscont {
-  display: block;
+  display: none;
   background-color: #7a869a90;
   -webkit-backdrop-filter: blur(0.3125rem);
   backdrop-filter: blur(0.125rem);
@@ -1451,7 +1473,7 @@ main {
   }
 
   li span {
-    font-size: 0.813rem;
+    font-size: 0.5rem;
     color: #7a869a;
     display: inline-table;
     vertical-align: middle;
@@ -1461,7 +1483,7 @@ main {
   }
 
   .info li span {
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 1.5rem;
     color: #7a869a;
@@ -1845,7 +1867,9 @@ main {
     margin-right: 1.5rem;
   }
 
-  .divd5 { grid-area: 4 / 2 / 5 / 3; }
+  .divd5 {
+    grid-area: 4 / 2 / 5 / 3;
+  }
 
   .h2pum {
     display: none;
