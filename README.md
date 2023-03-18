@@ -21,7 +21,7 @@
 
 # 📖 Portfolio - mobile menu <a name="about-project"></a>
 
-In this project, we have implemented basic Javascript syntax, Javascript to manipulate DOM events, objects to store and access data, JavaScript events. Our goal here is to master all of the tools and best practices we have learned about in previous steps. We will be using them in all Microverse projects and most likely in our future jobs as well, so it is important to know them!
+In this project, I have implemented Validation Contact Form. Also basic Javascript syntax, Javascript to manipulate DOM events, objects to store and access data, JavaScript events. My goal here is to master all of the tools and best practices I have learned about in previous steps. I will be using them in all Microverse projects and most likely in my future job as well, so it is important to know them!
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -67,6 +67,8 @@ In this project, we have implemented basic Javascript syntax, Javascript to mani
 - **DOM events with Javascript**
 - **Javascript events**
 - **Use objects to store and access data**
+- **Process user input according to business rules**
+- **Use client-side validation to catch and throw errors in the UI**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
