@@ -469,6 +469,7 @@ for (let i = 0; i < xicon.length; i++) {
 const $name = document.getElementById('name');
 const $email = document.getElementById('email');
 const $message = document.getElementById('message');
+const $error = document.getElementById('error');
 $name.required = true;
 $email.required = true;
 $message.required = true;
@@ -486,8 +487,11 @@ document.addEventListener('submit', (e) => {
       console.log('Form submitted successfully!');
     } else {
       e.preventDefault();
-      alert('Please enter your email in lower case');
-      $email.value = $email.value.toLowerCase();
+      $error.style.display = 'block';
+      setTimeout(() => {
+        $email.value = $email.value.toLowerCase();
+        $error.style.display = 'none';
+      }, [2500]);
     }
   }
 });
