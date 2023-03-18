@@ -1,4 +1,4 @@
-// ###################Variables#################################
+// ::::::::::::::::::::::Variables:::::::::::::::::::::::::::::::::::
 
 const $container = document.querySelector('.mobilemenu-container');
 const $icons = document.querySelectorAll('.icon-element');
@@ -313,14 +313,15 @@ cardContent.forEach((e) => {
 $cards.appendChild($fragment);
 
 /* eslint-disable no-plusplus */
+/* eslint-disable no-useless-escape */
 
-// ###################Functions#################################
+// ::::::::::::::::::::Functions:::::::::::::::::::::::::::::::::
 
 function toggleActivated() {
   $container.classList.toggle('activated');
 }
 
-// ###################Event Listeners#################################
+// ::::::::::::::::::::Event Listeners:::::::::::::::::::::::::::
 
 $icons.forEach((e) => {
   e.addEventListener('click', toggleActivated);
@@ -462,3 +463,35 @@ for (let i = 0; i < xicon.length; i++) {
     document.querySelector('.popscont').style.display = 'none';
   });
 }
+
+// ::::::::::::::::::::::Validation Form::::::::::::::::::::::::::::
+
+const $name = document.getElementById('name');
+const $email = document.getElementById('email');
+const $message = document.getElementById('message');
+const $error = document.getElementById('error');
+$name.required = true;
+$email.required = true;
+$message.required = true;
+$email.pattern = '^(([^<>()\[\]\\.,;:\s@\"]+(\.[^<>()\[\]\\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()\[\]\\.,;:\s@\"]+\.)+[^<>()\[\]\\.,;:\s@\"]{2,})$';
+function validation() {
+  if ($email.value === $email.value.toLowerCase()) {
+    return true;
+  }
+  return false;
+}
+
+document.addEventListener('submit', (e) => {
+  if (e.target.matches('form')) {
+    if (validation()) {
+      console.log('Form submitted successfully!');
+    } else {
+      e.preventDefault();
+      $error.style.display = 'block';
+      setTimeout(() => {
+        $email.value = $email.value.toLowerCase();
+        $error.style.display = 'none';
+      }, [2500]);
+    }
+  }
+});

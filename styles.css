@@ -89,6 +89,17 @@ li span {
   z-index: 5;
 }
 
+#error {
+  display: none;
+  margin: 0 0 1rem 0;
+  font-size: 1rem;
+  background-color: rgb(237, 55, 55);
+  color: white;
+  border-radius: 1rem;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+}
+
 .popup {
   display: grid;
   grid-template-columns: 1fr;
@@ -778,8 +789,7 @@ main {
 .b5:hover {
   background-color: #6070ff;
   color: #fff;
-  transform: rotate(360deg);
-  transform-origin: bottom center;
+  transform: scale(1.1);
 }
 
 .b5:active {
@@ -948,13 +958,25 @@ main {
 #frm {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
 .dataform {
   border-radius: 0.5rem;
   border: 0.063rem solid #cfd8dc;
   padding: 1rem 1rem;
+}
+
+#name {
+  font-size: 1rem;
+}
+
+#email {
+  font-size: 1rem;
+}
+
+#message {
+  font-size: 1rem;
 }
 
 #submit {
@@ -979,8 +1001,8 @@ main {
 #submit:hover {
   background-color: #6070ff;
   color: #fff;
-  transform: rotate(360deg);
-  transform-origin: bottom center;
+  transform: scale(1.1);
+  border: solid 1px white;
 }
 
 #submit:active {
@@ -1694,8 +1716,7 @@ main {
   .b5:hover {
     background-color: #6070ff;
     color: #fff;
-    transform: rotate(360deg);
-    transform-origin: bottom center;
+    transform: scale(1.1);
   }
 
   .b5:active {
